@@ -1,0 +1,1038 @@
+body {
+    font-size: 14px;
+}
+
+table.dataTable tbody th,
+table.dataTable tbody td {
+    padding: 4px 10px;
+    font-size: 13px;
+}
+
+.login-page,
+.register-page {
+    background: #fff;
+}
+
+input[type=text] {
+    text-transform: capitalize;
+}
+.text-trans{
+    text-transform: none;
+}
+
+.btn-customer,
+.btn-customer:hover {
+    background-color: #211b73;
+    border-color: #211b73;
+}
+a:hover {
+    color: #211b73;
+    text-decoration: underline;
+}
+#addBankDetailsModel, #editBankDetailsModel{
+    margin-left: 250px;
+}
+.customer-card{
+    box-shadow: 0px 0px 27px 19px rgb( 83, 72, 227, .12 );
+}
+
+a {
+    color: #211b73;
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #211b73;
+    border-color: #211b73;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #211b73a3;
+    outline: 0;
+    box-shadow: inset 0 0 0 transparent, 0 0 0 0.2rem rgb(44 166 27 / 8%);
+}
+
+.form-group .required::after {
+    content: " *";
+    color: red;
+}
+.cell-highlight {
+    content: " *";
+    color: red;
+  }
+  
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #211b73;
+    border-color: #211b73;
+    box-shadow: none
+}
+
+.btn-primary,
+.btn-primary:hover {
+    background-color: #211b73;
+    border-color: #211b73;
+}
+
+.btn-outline,
+.btn-outline:hover {
+    color: #211b73;
+    background-color: #211b731c;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #211b73;
+    border-color: #211b73;
+    font-size: 13px;
+}
+
+.customer-sidebar {
+    background-color: #0a082d;
+}
+
+.nav-sidebar .nav-item>.nav-link {
+    position: relative;
+    padding: 12px 10px;
+}
+
+.company-list-box {
+    text-align: center;
+    background: #fff;
+    padding: 15px 15px 25px 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.company-list-logo {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #dedede;
+    border-radius: 8px;
+}
+
+.company-list-logo img {
+    width: 60px;
+}
+
+.company-list-box h2 {
+    font-size: 16px;
+    margin-top: 12px;
+    margin-bottom: 6px;
+}
+
+.company-list-box h3 {
+    font-weight: 500;
+    font-size: 14px;
+    color: #5d5d5d;
+    margin-bottom: 10px;
+}
+
+.company-lis-view-btn,
+.company-lis-view-btn:hover {
+    background-color: #211b73;
+    padding: 5px 20px;
+    border-radius: 30px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.company-list-box h3 span {}
+
+.company-lis-edit-btn,
+.company-lis-edit-btn:hover {
+    border: 1px solid #211b73;
+    padding: 5px 20px;
+    border-radius: 30px;
+    font-size: 12px;
+    color: #211b73;
+}
+
+.company-details-bg {
+    background: #fff;
+    padding: 25px;
+}
+
+.company-details-box {
+    display: flex;
+    align-items: center;
+}
+
+.company-list-detail-logo {
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #dedede;
+    border-radius: 8px;
+}
+
+.company-list-detail-logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.company-details-box h4 {
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+.company-details-box-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.company-dropdown {
+    padding: 10px 10px;
+}
+.company-dropdown.navbar-expand .navbar-nav .dropdown-menu {
+    position: absolute;
+    right: 0px;
+    left: auto !important;
+}
+.company-ser-dropdown{
+    max-height: 220px;
+    overflow-y: auto;
+}
+
+.company-ser-dropdown span{
+    display: block;
+    margin-bottom: 6px;
+    border-bottom: 1px solid #dedede;
+    font-size: 13px;
+    padding-bottom: 9px;
+    cursor: pointer;
+}
+.notification-box h6{
+
+}
+.notification-box h5{
+    font-size: 12px;
+    color: #9796ad;
+    margin: 0;
+}
+.notification-box a{
+    text-decoration: none;
+}
+.notification-box p{
+
+}
+.notification-box span{
+    font-size: 12px;
+    color: #9796ad;
+}
+.dropdown-menu-lg {
+    min-width: 280px;
+    width: 280px;
+
+}
+.company-ser-dropdown span.active{
+   color:#2ca61b
+}
+
+.text-theme {
+    color: #211b73;
+}
+
+.company-details-box-info h4 {
+    margin: 0;
+    font-size: 14px;
+    color: #505050;
+    font-weight: 400;
+}
+
+.company-details-box-info h5 {
+    margin: 0;
+    font-size: 12px;
+    text-align: right;
+    font-weight: 600;
+}
+
+.all-service-ul {
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.all-service-ul .nav-item .nav-link {
+    color: #333333;
+    background-color: #ffffff;
+    border-radius: 0;
+    /* margin: 15px 0; */
+    padding: 6px 22px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.nav-pills .nav-link:not(.active):hover {
+    color: #211b73;
+}
+
+.all-service-ul .nav-item .nav-link.active {
+    color: #333333;
+    background-color: #ffffff;
+    border-bottom: 3px solid #211b73;
+    border-radius: 0;
+    /* margin: 15px 0; */
+    padding: 6px 22px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.invoice-stats-progress h6 {
+    color: #333333;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.progress {
+    display: -ms-flexbox;
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    line-height: 0;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+}
+
+.dropbtn,
+.dropbtn2 {
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    color: #000;
+    border-radius: 42px;
+    font-weight: 600;
+    padding: 3px 17px;
+    background: #dedede;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    overflow: auto;
+    z-index: 1;
+    padding: 10px 0px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.datatable {
+    width: 100% !important;
+}
+
+table.dataTable tbody td.select-checkbox::before,
+table.dataTable tbody td.select-checkbox::after,
+table.dataTable tbody th.select-checkbox::before,
+table.dataTable tbody th.select-checkbox::after {
+    top: 50%;
+}
+
+.dataTables_length,
+.dataTables_filter,
+.dt-buttons {
+    margin-bottom: 0.333em;
+}
+
+.dt-buttons .btn {
+    margin-left: 0.333em;
+    border-radius: 0;
+}
+
+.table.datatable {
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+
+table.dataTable thead th {
+    border-bottom: 2px solid #dee2e6;
+    font-size: 12px;
+}
+
+.btn-link {
+    font-weight: 400;
+    color: #211b73;
+    font-size: 13px;
+    padding: 0;
+}
+
+.dataTables_wrapper.no-footer .dataTables_scrollBody {
+    border-bottom: 1px solid #dee2e6;
+}
+.notification-dropdown{
+    min-width: 350px;
+    overflow-y: auto;
+    padding: 0px 10px 10px 10px;
+    max-height: 400px;
+}
+.notification-header-bg{
+    position: sticky;
+    top: 0;
+    left: 0;
+    background: #fff;
+    border-bottom: 1px solid #dedede;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.notification-box{
+    padding: 6px 8px;
+}
+.notification-box:hover{
+    background: #ededed;
+}
+.notification-dropdown .dropdown-item{
+    padding-left: 0;
+}
+.select2 {
+    max-width: 100%;
+    width: 100% !important;
+}
+
+table.dataTable thead .sorting,
+table.dataTable thead .sorting_asc,
+table.dataTable thead .sorting_desc {
+    background-image: none;
+}
+
+#exampleModal,
+#productModal,
+.manage-invoice-setting {
+    margin-left: 250px;
+}
+
+.add-customer-dialog,
+.productModal-dialog {
+    max-width: 70%;
+}
+
+.add-customer-dialog,
+.productModal-dialog {
+    max-width: 70%;
+}
+#setting-btn{
+    cursor: pointer;
+    color: #211b73;
+    font-size: 20px;
+}
+.sidebar-dark-primary .nav-sidebar>.nav-item>.nav-treeview {
+    background: 0 0;
+    padding-left: 12px;
+    background: #232142;
+}
+
+.h2,
+h2 {
+    font-size: 21px;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+    font-size: 12px;
+}
+
+label:not(.form-check-label):not(.custom-file-label) {
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.invoice-add {
+    max-width: 98%;
+}
+
+.modal-title {
+    font-size: 16px;
+}
+
+.content h3 {
+    margin: 0 15px 15px 0;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.content .inner-content .settings-desc {
+    font-size: 14px;
+    margin: 2px 5px;
+}
+
+.content .inner-content .settings-group .settings-group-title h5 {
+    font-size: 16px;
+    margin: 10px 6px;
+}
+
+.content .inner-content .settings-group .settings-group-controls {
+    margin: 5px 10px;
+    display: flex;
+}
+
+.content .inner-content .settings-group .settings-group-controls .checkbox-control {
+    font-size: 16px;
+}
+
+.settings-group .qbo-customfields-selection-ui .cf-customization .cf-title {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 5px 6px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 45px;
+    height: 20px;
+    margin-left: 100px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 13px;
+    width: 13px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #211b73;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #211b73;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  .slider.round {
+    border-radius: 30px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  .print{
+    margin-left: 5px;
+    font-size: 13px;
+  }
+
+.slider.round {
+    border-radius: 30px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.print {
+    margin-left: 5px;
+}
+
+.manage-invoice-bg {
+    position: fixed;
+    right: 0;
+    top: 57px;
+    width: 50%;
+    height: calc(100vh - 109px);
+    padding: 20px;
+    background: #fff;
+    transform: translateX(100%);
+    transition: .3s;
+}
+
+.manage-invoice-bg.active {
+    transform: translateX(0%);
+    transition: .3s;
+}
+
+#custom_name_field {}
+
+.cf-add-btn {
+    font-size: 15px;
+    font-weight: 600;
+    color: #232142;
+}
+
+.modal {
+    background: #00000061;
+}
+
+.modal.show .modal-dialog {
+    margin-left: 30px;
+}
+
+#add_custom {
+    color: #211b73;
+    font-weight: 600;
+    border: 1px solid #211b73;
+    padding: 1px 7px;
+}
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background-color: #211b73 !important;
+    color: #fff;
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background-color: #211b73 !important;
+    color: white;
+}
+.cfm-label-bg {
+    border: #ebebeb 1px solid;
+    padding: 6px 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #e7e7e7;
+}
+
+.cfm-label-bg p {
+    margin: 0;
+    font-size: 12px;
+}
+
+.cfm-label-bg h5 {
+    margin: 0;
+    font-size: 14px;
+}
+
+.cfm-label-bg h6 {
+    margin-bottom: 2px;
+}
+
+#invoice-close {
+    cursor: pointer;
+}
+
+.sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active {
+    background-color: #fff;
+    color: #232142;
+}
+
+.cfm-label-bg span {
+    color: #211b73;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.cfm-label-bg i {
+    margin: 0 3px;
+    color: #211b73;
+}
+
+#addCustomFieldModel .modal-dialog, #editCustomFieldModel .modal-dialog, #groupModal .modal-dialog, #termNameModal .modal-dialog, #accountNameModal .modal-dialog, #categoryModal .modal-dialog, #accountTypeModal .modal-dialog, #categoryModal .modal-dialog{
+    margin-left: 285px;
+}
+
+.modal-dialog{
+    margin-left: 285px;
+}
+
+.btn-success:not(:disabled):not(.disabled).active,
+.btn-success:not(:disabled):not(.disabled):active,
+.show>.btn-success.dropdown-toggle {
+    color: #fff;
+    background-color: #211b73;
+    border-color: #211b73;
+    box-shadow: none;
+}
+
+.btn-success:not(:disabled):not(.disabled).active:focus,
+.btn-success:not(:disabled):not(.disabled):active:focus,
+.show>.btn-success.dropdown-toggle:focus {
+    box-shadow: none;
+}
+
+.btn-success.focus,
+.btn-success:focus {
+    color: #fff;
+    background-color: #211b73;
+    border-color: #211b73;
+    box-shadow: none;
+}
+.filters {
+    color: #211b73;
+    margin-left: 5px;
+    background-color: whitesmoke;
+    font-weight: 50px;
+    border-radius: 5px;
+    border: 1px solid #211b73;
+}
+.filters-buttons{
+    margin-left: 5px;
+}
+.red{
+    color: red;
+    font-weight: bolder;
+}
+.blue{
+    color: #211b73 ;
+    font-weight: bolder;
+}
+.green{
+    color: green;
+    font-weight: bolder;
+}
+.dark{
+    color: #000;
+    font-weight: bolder;
+}
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: #211b73;
+}
+
+.dropdown-content:hover {
+    border: 2px solid #211b73;
+    box-shadow: 3px #98ec77;
+    background-color: white;
+}
+.dropdown-content .label_space{
+    margin-left: 50px;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    #exampleModal, #productModal {
+        margin-left: 0px;
+    }
+    .add-customer-dialog, .productModal-dialog, .manage-invoice-setting-sub{
+        max-width: 90%;
+    }
+    #addCustomFieldModel .modal-dialog, #editCustomFieldModel .modal-dialo, #groupModal .modal-dialog, #termNameModal .modal-dialog, #accountTypeModal .modal-dialog {
+        margin-left: 0;
+        margin: 0 auto;
+    }
+    .modal-dialog{
+        margin-left: 0;
+        margin: 0 auto;
+    }
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: #211b73;
+}
+
+.dropdown-content:hover {
+    border: 2px solid #211b73;
+    box-shadow: 3px #98ec77;
+    background-color: white;
+}
+.dropdown-content .label_space{
+    margin-left: 50px;
+}
+.green{
+    color: green;
+    font-weight: bolder;
+}
+.red{
+    color: red;
+    font-weight: bolder;
+}
+.blue{
+    color: rgb(38, 0, 255);
+    font-weight: bolder;
+}
+.dark{
+    color:#000000;
+    font-weight: bolder;
+}
+/* media for mobile */
+
+@media screen and (max-width: 992px) {
+
+    #exampleModal,
+    #productModal {
+        margin-left: 0px;
+    }
+
+    .add-customer-dialog,
+    .productModal-dialog,
+    .manage-invoice-setting-sub {
+        max-width: 90%;
+    }
+
+    #addCustomFieldModel .modal-dialog,
+    #editCustomFieldModel .modal-dialog {
+        margin-left: 0;
+        margin: 0 auto;
+    }
+
+    .dropdown {
+        display: inline-block;
+        position: relative;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        width: 100%;
+        overflow: auto;
+        box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .dropdown-content a {
+        display: block;
+        color: #000000;
+        padding: 5px;
+        text-decoration: none;
+    }
+
+    .dropdown-content a:hover {
+        color: #FFFFFF;
+        background-color: #00A4BD;
+    }
+
+    .dropdown-content:hover {
+        border: 2px solid #2f9721;
+        box-shadow: 3px #98ec77;
+        background-color: white;
+    }
+
+    .filters {
+        margin-left: 10px;
+        margin-right: 20px;
+        background-color: whitesmoke;
+        font-weight: 20px;
+        border-radius: 20px;
+        border: 1px solid #505050;
+    }
+
+
+
+    .content h3 {
+        margin: 0 15px 15px 0;
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .content .inner-content .settings-desc {
+        font-size: 14px;
+        margin: 2px 5px;
+    }
+
+    .content .inner-content .settings-group .settings-group-title h5 {
+        font-size: 16px;
+        margin: 10px 6px;
+    }
+
+    .content .inner-content .settings-group .settings-group-controls {
+        margin: 5px 10px;
+    }
+
+    .content .inner-content .settings-group .settings-group-controls .checkbox-control {
+        font-size: 16px;
+    }
+
+    .settings-group .qbo-customfields-selection-ui .cf-customization .cf-title {
+        font-size: 16px;
+        font-weight: 500;
+        margin: 5px 6px;
+    }
+
+    .settings-group .qbo-customfields-selection-ui .cf-customization .add-customfields-link-widget .cf-link .cf-add-btn {
+        margin-left: 400px;
+        font-size: 15px;
+        font-weight: 600;
+        color: #1a1194;
+        text-decoration: underline;
+    }
+
+    .settings-group .qbo-customfields-selection-ui .cf-customization .cfm-section ul li .cfm-label {
+        font-size: 15px;
+        margin: 2px 2px;
+    }
+
+    .settings-group .qbo-customfields-selection-ui .cf-customization .cfm-section ul li .cfm-label .edit {
+        font-size: 15px;
+        margin-left: 10px;
+        color: #2015b7;
+    }
+
+    .settings-group .qbo-customfields-selection-ui .cf-customization .cfm-section ul li .cfm-label .remove {
+        font-size: 15px;
+        margin-left: 10px;
+        color: #b71515;
+    }
+
+    .settings-group .qbo-customfields-selection-ui .cf-customization .cfm-section ul li .cf-showtocustomer {
+        font-size: 13px;
+        margin-left: 20px;
+        color: #333333;
+    }
+
+    .sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active {
+        background-color: #232142;
+    }
+
+    .page-link {
+        color: #211b73;
+    }
+
+    #addCustomFieldModel,
+    #editCustomFieldModel {
+        /* margin-top: 40px;
+    margin-left: 100px; */
+        padding-top: 80px;
+        margin-left: 0px;
+    }
+
+    /* toogle button css */
+
+    .switch {
+        position: relative;
+        display: inline-block;
+        width: 45px;
+        height: 20px;
+        margin-left: 100px;
+    }
+
+    .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+
+    .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+
+    .slider:before {
+        position: absolute;
+        content: "";
+        height: 13px;
+        width: 13px;
+        left: 4px;
+        bottom: 4px;
+        background-color: white;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+
+    input:checked+.slider {
+        background-color: #2196F3;
+    }
+
+    input:focus+.slider {
+        box-shadow: 0 0 1px #2196F3;
+    }
+
+    input:checked+.slider:before {
+        -webkit-transform: translateX(26px);
+        -ms-transform: translateX(26px);
+        transform: translateX(26px);
+    }
+
+    .slider.round {
+        border-radius: 30px;
+    }
+
+    .slider.round:before {
+        border-radius: 50%;
+    }
+
+    .print {
+        margin-left: 5px;
+    }
+}

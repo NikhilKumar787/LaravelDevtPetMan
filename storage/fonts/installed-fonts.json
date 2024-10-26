@@ -1,0 +1,24 @@
+{
+    "open sans', sans-serif": {
+        "300": "open-sans-sans-serif-300_2b49d39ea56b8975537c74c589775693",
+        "normal": "open-sans-sans-serif-normal_2b49d39ea56b8975537c74c589775693",
+        "500": "open-sans-sans-serif-500_416cc2eeb1a4beb70b02612f8e5c6a33",
+        "600": "open-sans-sans-serif-600_8999e0cffedd1ff9dd401f154ca625e5"
+    },
+    "fontawesome": {
+        "normal": "fontawesome_normal_7ea195556637d817f455524c7885b526"
+    },
+    "lora": {
+        "600": "lora_600_cef2b91ed44a49e9be371d22252c497e"
+    },
+    "nunito": {
+        "normal": "nunito_normal_586f3f8a461df5c8635a870033365d5e"
+    },
+    "font awesome 5 brands": {
+        "normal": "font_awesome_5_brands_normal_579f85f3486221d3d8aeb251b0c7bdf1"
+    },
+    "font awesome 5 free": {
+        "normal": "C:\\xampp\\htdocs\\Taxtube\\storage\\fonts\/font_awesome_5_free_normal_ff368cfa686a2556d98ad4efe5992fc7",
+        "900": "font_awesome_5_free_900_b8ee1b4d0a6320b92a70a72abe12a866"
+    }
+}
